@@ -32,6 +32,17 @@ try
     Console.WriteLine(coiso1.MostraDados());
 
     Console.WriteLine(coiso1.CalculaArea());
+
+    //Ex5
+    var calcular1 = new Calculadora();
+    Console.WriteLine("Digite o valor");
+    calcular1.Valor1 = int.Parse(Console.ReadLine());
+    Console.WriteLine("digite o segundo valor");
+    calcular1.Valor2= int.Parse(Console.ReadLine());
+    Console.WriteLine("Qual operação deseja fazer?");
+    calcular1.Operacao = Console.ReadLine();
+    Console.WriteLine($"{calcular1.Valor1} , {calcular1.Valor2} e {calcular1.Operacao}");
+    Console.WriteLine(calcular1.Calcular());
 }
 catch (Exception ex)
 {
