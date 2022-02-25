@@ -3,12 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32210.238
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C8F92757-3C7F-4B03-8CDE-28D077C7EEE5}"
-	ProjectSection(SolutionItems) = preProject
-		Pessoa.cs = Pessoa.cs
-	EndProjectSection
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ms2s03.Classes", "src\ms2s03.Classes\ms2s03.Classes.csproj", "{A47440AF-1990-4C04-A1F1-C390BC41E9D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ms2s03.Sistema", "src\ms2s03.Sistema\ms2s03.Sistema.csproj", "{BE08E8EB-DC0B-45A1-9307-FF055F442A0F}"
 EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A47440AF-1990-4C04-A1F1-C390BC41E9D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A47440AF-1990-4C04-A1F1-C390BC41E9D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A47440AF-1990-4C04-A1F1-C390BC41E9D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A47440AF-1990-4C04-A1F1-C390BC41E9D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE08E8EB-DC0B-45A1-9307-FF055F442A0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE08E8EB-DC0B-45A1-9307-FF055F442A0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE08E8EB-DC0B-45A1-9307-FF055F442A0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE08E8EB-DC0B-45A1-9307-FF055F442A0F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
