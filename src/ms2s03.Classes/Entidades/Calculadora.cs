@@ -22,7 +22,7 @@ namespace ms2s03.Classes.Entidades
 
         public string Calcular()
         {
-            if (Operacao == "+" || Operacao == "-" || Operacao == "*" || Operacao == "/") ;
+            if (Operacao == "+" || Operacao == "-" || Operacao == "*" || Operacao == "/")
            
             if (Operacao == "+")
             {
