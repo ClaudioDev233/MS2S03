@@ -7,8 +7,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ms2s03.Classes", "src\ms2s0
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ms2s03.Sistema", "src\ms2s03.Sistema\ms2s03.Sistema.csproj", "{BE08E8EB-DC0B-45A1-9307-FF055F442A0F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex1", "Ex1\Ex1.csproj", "{A483ED72-BF68-4B22-8B02-6818E9A41092}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,10 +21,6 @@ Global
 		{BE08E8EB-DC0B-45A1-9307-FF055F442A0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BE08E8EB-DC0B-45A1-9307-FF055F442A0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BE08E8EB-DC0B-45A1-9307-FF055F442A0F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A483ED72-BF68-4B22-8B02-6818E9A41092}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A483ED72-BF68-4B22-8B02-6818E9A41092}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A483ED72-BF68-4B22-8B02-6818E9A41092}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A483ED72-BF68-4B22-8B02-6818E9A41092}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

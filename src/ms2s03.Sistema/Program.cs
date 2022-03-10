@@ -14,13 +14,20 @@ try
     Console.WriteLine("Exercicio 1");
     Console.WriteLine(pessoa1.ShowPerson());
 
-    //Ex2
-
-    var prato1 = new Menu
+    //Ex2 Menu
+    var batata = new Ingrediente("batata");
+    var oleo = new Ingrediente("Oleo");
+    var batataFrita = new Prato("Batata Frita", 15.93M);
+    batataFrita.AdicionaIngrediente(new List<Ingrediente>()
     {
-        NomeDoPrato = "Coiso",
-        Preco = 2,
-    };
+        oleo,
+        batata,
+    });
+    //batataFrita.MostrarIngredientes();
+    var menuCoiso = new Menu("Coiso");
+    menuCoiso.AdicionaPratoAoMenu(batataFrita);
+    menuCoiso.RetornaMenu();
+   
 
     //Ex3
 
