@@ -9,10 +9,19 @@
 
 		private DateTime _nascimento;
 
+		private int _idade;
 
-		public int Altura { get; set; }
+		public Pessoa() { }
+        public Pessoa(string nome, int idade)
+        {
+            Nome = nome;
+            Idade = idade;
+        }
+
+        public int Altura { get; set; }
 		public DateTime Nascimento { get; set; }
 		public string Nome { get; set; }
+		public int Idade { get; set; }
 
 		public string ShowPerson()
 		{

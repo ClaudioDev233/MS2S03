@@ -40,6 +40,11 @@ try
 
     Console.WriteLine(coiso1.CalculaArea());
 
+    //Ex4 Pessoas
+
+    var pessoas = new Pessoas();
+    pessoas.AdicionarPessoas();
+
     //Ex5
     var calcular1 = new Calculadora();
     Console.WriteLine("Digite o valor");
