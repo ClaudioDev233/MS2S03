@@ -42,19 +42,28 @@ try
 
     //Ex4 Pessoas
 
-    var pessoas = new Pessoas();
-    pessoas.AdicionarPessoas();
+    //var pessoas = new Pessoas();
+    //pessoas.AdicionarPessoas();
 
     //Ex5
-    var calcular1 = new Calculadora();
-    Console.WriteLine("Digite o valor");
-    calcular1.Valor1 = int.Parse(Console.ReadLine());
-    Console.WriteLine("digite o segundo valor");
-    calcular1.Valor2= int.Parse(Console.ReadLine());
-    Console.WriteLine("Qual operação deseja fazer?");
-    calcular1.Operacao = Console.ReadLine();
-    Console.WriteLine($"{calcular1.Valor1} , {calcular1.Valor2} e {calcular1.Operacao}");
-    Console.WriteLine(calcular1.Calcular());
+    //var calcular1 = new Calculadora();
+    //Console.WriteLine("Digite o valor");
+    //calcular1.Valor1 = int.Parse(Console.ReadLine());
+    //Console.WriteLine("digite o segundo valor");
+    //calcular1.Valor2= int.Parse(Console.ReadLine());
+    //Console.WriteLine("Qual operação deseja fazer?");
+    //calcular1.Operacao = Console.ReadLine();
+    //Console.WriteLine($"{calcular1.Valor1} , {calcular1.Valor2} e {calcular1.Operacao}");
+    //Console.WriteLine(calcular1.Calcular());
+
+    //Ex 6 
+
+    var pedido1 = new Pedido(new DateOnly(2022, 03, 12));
+    pedido1.AdicionaPrato(batataFrita);
+    pedido1.AdicionaPrato(batataFrita);
+    pedido1.AdicionaPrato(batataFrita);
+    Console.WriteLine(pedido1.QuantidadeDeItens());
+    Console.WriteLine(pedido1.ValorDoPedido());
 }
 catch (Exception ex)
 {
