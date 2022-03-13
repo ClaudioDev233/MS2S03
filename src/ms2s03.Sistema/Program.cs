@@ -64,6 +64,19 @@ try
     pedido1.AdicionaPrato(batataFrita);
     Console.WriteLine(pedido1.QuantidadeDeItens());
     Console.WriteLine(pedido1.ValorDoPedido());
+    
+    //Ex7-8
+    var aluno1 = new Aluno("Claudio1", 8.3M);
+    Console.WriteLine(aluno1.n);
+    var aluno2 = new Aluno("Claudio2", 3.3M);
+    var aluno3 = new Aluno("Claudio3", 9.3M);
+    var aluno4 = new Aluno("Claudio4", 9.9M);
+    var aluno5 = new Aluno("Claudio5", 9.5M);
+    var exame = new Exame();
+    exame.AdicionarAlunos(new List<Aluno>() { aluno1,
+    aluno2, aluno3,aluno4,aluno5
+    });
+   exame.AlunoMaiorNota();
 }
 catch (Exception ex)
 {
