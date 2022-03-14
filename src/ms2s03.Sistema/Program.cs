@@ -76,7 +76,12 @@ try
     exame.AdicionarAlunos(new List<Aluno>() { aluno1,
     aluno2, aluno3,aluno4,aluno5
     });
-   exame.AlunoMaiorNota();
+    exame.AlunoOrdem();
+    exame.AlunoMaiorNota();
+    exame.AlunoMenorNota();
+    exame.MediaAlunos();
+    exame.AlunosReprovados();
+   
 }
 catch (Exception ex)
 {
