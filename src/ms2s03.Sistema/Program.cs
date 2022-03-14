@@ -42,8 +42,8 @@ try
 
     //Ex4 Pessoas
 
-    //var pessoas = new Pessoas();
-    //pessoas.AdicionarPessoas();
+    var pessoas = new Pessoas();
+    pessoas.AdicionarPessoas();
 
     //Ex5
     //var calcular1 = new Calculadora();

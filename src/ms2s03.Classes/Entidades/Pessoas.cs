@@ -12,17 +12,12 @@ namespace ms2s03.Classes.Entidades
         public List<Pessoa> ListaPessoa { get; set; }
        
 
-        private dynamic ExibeMaiorIdade()
+        private string ExibeMaiorIdade()
         {
 
-            if(ListaPessoa != null)
-            {
-                Pessoa? pessoa = ListaPessoa.Find(pessoa => pessoa.Idade < pessoa.Idade);
-                var pessoaMaisVelha = pessoa;
-            return pessoaMaisVelha.Nome;
-            }
-            return null;
-
+            ListaPessoa.Sort((idade1, idade2) => idade2.Idade.CompareTo(idade1.Idade));
+            return $"A pessoa mais velha é {ListaPessoa[0].Nome}, com {ListaPessoa[0].Idade}";
+                
 
         }
         public void AdicionarPessoas()
